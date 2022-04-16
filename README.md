@@ -68,12 +68,3 @@ pipeline {
     }
 }
 ```
-5. Запуск pipeline
-![AverageStageTimes](./img/AverageStageTimes.jpg)
-<br>
-6. Выходные данные
-    a. ![](./img/Start.jpg)<br>
-    b. ![](./img/ParallelSteps.jpg)<br>
-        i. ![](./img/ParallelStep1.jpg)<br>
-        ii. ![](./img/ParallelStep2.jpg)<br>
-    c. ![](./img/End.jpg)
