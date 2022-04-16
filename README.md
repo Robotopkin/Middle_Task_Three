@@ -30,16 +30,19 @@ _Docker_ и _Браузер_
 ![Container](./img/Container.jpg)
 <br>
 2. Переход в браузер по ссылке __"http://localhost:8080/"__
+
 ![UJenkins](./img/UJenkins.jpg)
+
 <br>
 3. Создание pipeline
+
 ![CreationOfPipline](./img/CreationOfPipline.jpg)
 <br>
 4. Написание кода 
-```
+
 pipeline {
     agent any
-
+```
     stages {
         stage('Prepare') {
             steps('Prepare') {
@@ -68,3 +71,21 @@ pipeline {
     }
 }
 ```
+
+<br>
+5. Запуск pipeline<br>
+
+![AverageStageTimes](./img/AverageStageTimes.jpg)
+
+<br>
+6. Выходные данные<br>
+
+ ![Start](./img/Start.jpg)<br>
+    
+ ![ParallelSteps](./img/ParallelSteps.jpg)<br>
+    
+ ![ParallelStep1](./img/ParallelStep1.jpg)<br>
+        
+ ![ParallelStep2](./img/ParallelStep2.jpg)<br>
+        
+ ![End](./img/End.jpg)
